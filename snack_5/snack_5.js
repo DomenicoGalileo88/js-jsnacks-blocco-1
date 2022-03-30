@@ -21,4 +21,5 @@ for (let i = 0; i < 6; i++) {
 }
 
 console.log(pari_dispari);
+let risultato = document.getElementById('risultato').innerHTML = `Tra i numeri inseriti, i numeri dispari sono: ${pari_dispari}`;
 

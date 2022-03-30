@@ -14,3 +14,5 @@ for (let i = 0; i < numeri.length; i++) {
 }
 
 console.log(`La somma dei numeri è: ${somma} e la media è: ${media}`);
+const risultato = document.getElementById('risultato');
+risultato.innerHTML = `La somma dei numeri è: ${somma} e la media è: ${media}`;

@@ -20,3 +20,4 @@ for (let i = 0; i < numero.length; i++) {
 }
 
 console.log(somma);
+const risultato = document.getElementById('risultato').innerHTML = `La somma dei numeri inseriti è ${somma}`;

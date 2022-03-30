@@ -22,11 +22,16 @@ for (let i = 0; i < lista.length; i++) {
     }
 }
 
+let risultato = document.getElementById('risultato');
+
 // comunicagli se può partecipare o no alla festa.
 if (partecipazione == true) {
     console.log('Puoi entrare');
+    risultato.innerHTML = `Puoi entrare`;
 } else {
     console.log('Non sei nella lista, quindi non puoi entrare');
+    risultato.innerHTML = `Non puoi entrare, non sei nella lista`;
+
 }
 
 

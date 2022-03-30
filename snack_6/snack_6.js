@@ -10,5 +10,6 @@ const number = parseInt(prompt('Inserisci un numero'));
 
 for (let i = 1; i <= number; i++){
     console.log(Math.pow(i, 3));
+    let cubo = Math.pow(i, 3);
 }
 

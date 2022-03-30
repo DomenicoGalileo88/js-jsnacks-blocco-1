@@ -17,6 +17,7 @@ for (let i = 0; i < 10; i++){
 }
 
 console.log(somma);
+let risultato = document.getElementById('risultato').innerHTML = `La somma dei numeri è: ${somma}`;
 
 
 
