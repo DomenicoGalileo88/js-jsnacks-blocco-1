@@ -22,7 +22,7 @@ for (let i = 0; i < lista.length; i++) {
     }
 }
 
-if (partecipazione) {
+if (partecipazione == true) {
     console.log('Puoi entrare');
 } else {
     console.log('Non sei nella lista, quindi non puoi entrare');
