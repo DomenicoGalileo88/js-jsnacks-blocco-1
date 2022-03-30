@@ -1,24 +1,14 @@
 /* 
-SNACK 5
-Crea un array vuoto.
-Chiedi per 6 volte all’utente di inserire un numero,
-se è dispari inseriscilo nell’array.
-
+Stampa il cubo dei primi N numeri,
+dove N è un numero indicato dall’utente.
 */
 
-//Crea un array vuoto.
+//chiedi un numero all'utente
+const number = parseInt(prompt('Inserisci un numero'));
 
-let pari_dispari = [];
+//crea un ciclo che stampi una serie di numeri fino al numero indicato dall'utente
 
-//Chiedi per 6 volte all’utente di inserire un numero,
-
-for (let i = 0; i < 6; i++) {
-    let inserire_numero = parseInt(prompt('Inserire un numero'));
-    
-    //se è dispari inseriscilo nell’array.
-    if ( inserire_numero % 2 !== 0)
-    pari_dispari.push(inserire_numero)
+for (let i = 1; i <= number; i++){
+    console.log(Math.pow(i, 3));
 }
-
-console.log(pari_dispari);
 
