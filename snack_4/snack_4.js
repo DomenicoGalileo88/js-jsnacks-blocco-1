@@ -13,7 +13,7 @@ const lista = ['Marco', 'Luca', 'Alessio', 'Antonia', 'Lucrezia', 'Federica'];
 //chiedi all’utente il suo nome
 
 const user_name = prompt('Come ti chiami?');
-let partecipazione = false;
+let partecipazione;
 
 for (let i = 0; i < lista.length; i++) {
     const element = lista[i];
@@ -22,6 +22,7 @@ for (let i = 0; i < lista.length; i++) {
     }
 }
 
+// comunicagli se può partecipare o no alla festa.
 if (partecipazione == true) {
     console.log('Puoi entrare');
 } else {
@@ -29,4 +30,3 @@ if (partecipazione == true) {
 }
 
 
-// comunicagli se può partecipare o no alla festa.
