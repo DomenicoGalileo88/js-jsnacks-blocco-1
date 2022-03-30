@@ -14,7 +14,7 @@ const seconda_parola = prompt('Inserisci la seconda parola');
 if (prima_parola.length > seconda_parola.length){
     console.log(`La prima parola ${prima_parola} è più lunga della seconda ${seconda_parola}`);
 } else if (prima_parola.length < seconda_parola.length){
-    console.log(`La seconda parola ${seconda_parola} è più luiinga della prima ${seconda_parola}`);
+    console.log(`La seconda parola ${seconda_parola} è più luiinga della prima ${prima_parola}`);
 } else {
     console.log('Le due parole hanno la stessa lunghezza');
 }
