@@ -12,10 +12,10 @@ const seconda_parola = prompt('Inserisci la seconda parola');
 //Il software stampa prima la parola più corta, poi la parola più lunga.
 
 if (prima_parola.length > seconda_parola.length){
-    console.log(`La seconda parola ${seconda_parola} prima parola ${prima_parola}`);
+    console.log(`Parola corta ${seconda_parola} parola lunga ${prima_parola}`);
 
 } else if (prima_parola.length < seconda_parola.length){
-    console.log(`La prima parola ${prima_parola} seconda parola ${seconda_parola}`);
+    console.log(`Parola corta ${prima_parola} parola lunga ${seconda_parola}`);
 
 } else {
     console.log('Le due parole hanno la stessa lunghezza');
