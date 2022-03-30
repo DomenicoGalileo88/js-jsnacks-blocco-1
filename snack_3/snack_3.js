@@ -16,6 +16,8 @@ for (let i = 0; i < 10; i++){
     somma = somma + inserire_numero
 }
 
+console.log(somma);
+
 
 
 //Il programma stampa la somma di tutti i numeri inseriti.
