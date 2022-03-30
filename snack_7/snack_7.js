@@ -1,24 +1,8 @@
-/* 
-SNACK 5
-Crea un array vuoto.
-Chiedi per 6 volte all’utente di inserire un numero,
-se è dispari inseriscilo nell’array.
+// Stampa le potenze di 2 fino a 1000
 
-*/
+//crea un ciclo che stampi la pot di 2 fino a che il suo risultato sia 1000
 
-//Crea un array vuoto.
-
-let pari_dispari = [];
-
-//Chiedi per 6 volte all’utente di inserire un numero,
-
-for (let i = 0; i < 6; i++) {
-    let inserire_numero = parseInt(prompt('Inserire un numero'));
-    
-    //se è dispari inseriscilo nell’array.
-    if ( inserire_numero % 2 !== 0)
-    pari_dispari.push(inserire_numero)
+for (i = 1; i <= 10; i++){
+    let numero = Math.pow(2, i);
+    console.log(numero);
 }
-
-console.log(pari_dispari);
-
