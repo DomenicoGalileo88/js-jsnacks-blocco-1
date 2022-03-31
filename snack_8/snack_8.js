@@ -11,7 +11,7 @@ let numero = prompt('Inserisci un numero di massimo 4 cifre ');
 // calcolo la somma dei numeri che compongono il numero dell'utente
 let somma = 0;
 
-// tratta il prompt come un array
+// trattato il prompt come un array
 for (let i = 0; i < numero.length; i++) {
     //fai la somma e trasforma la stringa in un numero
    let num_singolo = parseInt(numero[i]);
